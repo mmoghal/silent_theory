@@ -180,6 +180,14 @@ margin: 100px 0;
  margin: 0 10px;
 }
 
+.testimonials img {
+  transition: 0.5s;
+}
+
+.testimonials a:hover img {
+  transform: translateY(-10px);
+}
+
 .user-details {
   display: inline-block;
   font-size: 12px;
