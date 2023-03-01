@@ -12,27 +12,30 @@
 
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src=""></a>
+          <a class="navbar-brand" href="#"><img src="./assets/images/Professional IT Solutions Inc-logos_transparent_new.png"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars" aria-hidden="true"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#top">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#about-us">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
+                <a class="nav-link" href="#testimonials">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#footer">Contact</a>
               </li>
+            </ul>
+              <!---------------Future Section----------------
+
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
@@ -43,11 +46,14 @@
                   <li><hr class="dropdown-divider">test</li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-              </li>
+              </li> 
+
               <li class="nav-item">
-                <a class="nav-link" href="#">My Projects </a>
+                <a class="nav-link" href="#My Projects">My Projects </a>
               </li>
-            </ul>
+              ----------------------Future Section ---------------------->
+
+            
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
@@ -140,7 +146,7 @@
 <!---------------Testimonials Section------------------->
 <section id="testimonials">
   <div class="container">
-    <h1 class="title text-center">Client Testimonials</h1>
+    <h1 class="title text-center">Portfolio</h1>
     <div class="row offset-1">
       <div class="col-md-5 testimonials">
         <p>I had the pleasure of working with Muhammad on a complex web development project. His attention to detail and problem-solving skills were exceptional. Muhammad not only delivered the project on time, but also exceeded our expectations in terms of functionality and user experience. I highly recommend Muhammad for any web development needs.</p>
@@ -178,19 +184,32 @@
 <div class="container">
 <div class="row">
 <div class="col-md-4 footer-box">
-<img src="./assets/images/demo-logo.png">
-     <p>Press the bell icon to get notifications.</p>
+<img src="./assets/images/">
+     <p>My team of experts has extensive knowledge and experience in their respective fields. 
+      Press the bell icon to get notifications.</p>
 </div>
-
 <div class="col-md-4 footer-box">
-  <p><b>Contact Us</b></p>
-  <p><i class="fa-sharp fa-regular fa-map-pin"></i>123 lexington Ave, New York, NY 10022</p>
+  <p><b>CONTACT US</b></p>
+  <p><i class="fa fa-map-marker"></i> 123 Lex Ave New York, NY 10022</p>
   <p><i class="fa fa-phone"></i> +1 01234567890</p>
-  <p><i class="fa fa-envelope-o"></i> xyz@gmail.com</p>
+  <p><i class="fa fa-phone"></i> xzy@gmail.com</p>
+</div>
+<div class="col-md-4 footer-box">
+  <p><b>Subscribe Newsletter</b></p>
+  <input type="email" class="form-control" placeholder="Your Email">
+  <button type="button" class="btn btn-primary">Subscribe</button>
 </div>
 </div>
+  <hr>
+  <p class="copyright">Crafted by Muhammad Moghal: Your Website Expert.</p>
 </div>
 </section>
+
+<!---------------Smooth Scroll------------------->
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 
   </body>
 </html>
