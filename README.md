@@ -43,7 +43,7 @@ The portfolio website includes the following features:
 
 ## Usage
 
-Our webpage features a user-friendly navigation panel located at the top left corner, providing easy access to various parts of the webpage. You can quickly jump to sections such as 'About Us', 'Services', 'Portfolio', 'Testimonials', and 'Contact' by using it. Our 'Services' section provides details on the various services we offer, which includes IT Strategy and Planning, Cybersecurity, Cloud Computing, and more. The 'Portfolios' section showcases some of our recent projects, giving you a glimpse of the type of applications I have deployed. If you're interested in hearing what our clients have to say about me, check out the 'Testimonials' section. Here, you'll find feedback from some of our satisfied clients who have worked with me in the past. Finally, if you're ready to get in touch with us, head over to the 'Contact' section.
+My webpage features a user-friendly navigation panel located at the top left corner, providing easy access to various parts of the webpage. You can quickly jump to sections such as 'About Us', 'Services', 'Portfolio', 'Testimonials', and 'Contact' by using it. Our 'Services' section provides details on the various services we offer, which includes IT Strategy and Planning, Cybersecurity, Cloud Computing, and more. The 'Portfolios' section showcases some of our recent projects, giving you a glimpse of the type of applications I have deployed. If you're interested in hearing what our clients have to say about me, check out the 'Testimonials' section. Here, you'll find feedback from some of our satisfied clients who have worked with me in the past. Finally, if you're ready to get in touch with us, head over to the 'Contact' section.
 
 ## Credits
 
