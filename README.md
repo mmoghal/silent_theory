@@ -2,7 +2,7 @@
 
 ## Description
 
-I have completed a web development challenge that involved building a portfolio page using HTML, CSS, flexbox, media queries, and CSS variables. This portfolio showcases my work and highlights my thought processes behind it. I have also created deployed web applications, which are live on the web and can be used as examples of my work. These projects demonstrate my proficiency in web development and highlight my ability to create engaging, functional websites.
+I have completed a web development challenge that involved building a portfolio page using HTML, CSS, flexbox, and CSS variables. This portfolio showcases my work and highlights my thought processes behind it. I have also created deployed web applications, which are live on the web and can be used as examples of my work. These projects demonstrate my proficiency in web development and highlight my ability to create engaging, functional websites.
 
 As a web developer, I am always looking for ways to expand my skill set and learn new technologies. I am passionate about creating intuitive, visually appealing websites that deliver an exceptional user experience. If you are interested in learning more about my work or discussing potential projects, please feel free to get in touch with me.
 
@@ -44,7 +44,7 @@ The portfolio website includes the following features:
 
 .   The HTML and CSS code in this project has been designed to be easily extendable, allowing for the addition of new sections and elements in the future.
 
-.   The use of flexible and responsive design principles, such as the implementation of Flexbox and media queries, ensures that any new content added to the site will seamlessly integrate with the existing layout.
+.   The use of flexible and responsive design principles, such as the implementation of Flexbox, ensures that any new content added to the site will seamlessly integrate with the existing layout.
 
 .   The modular structure of the codebase makes it easy to isolate and update specific sections without affecting the overall functionality of the site.
 
