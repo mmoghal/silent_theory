@@ -1,13 +1,17 @@
- /* General styles for the entire page */
+/* Global styles section */
+
 * {
   margin: 0;
   padding: 0;
 }
 
-body
-{ 
+/* Body styles section */
+
+body {
   font-family: sans-serif;
 }
+
+/* Nav styles section */
 
 #nav-bar {
   position: sticky;
@@ -16,12 +20,11 @@ body
 }
 
 .navbar {
-background-image: linear-gradient(to right, #a517ba,#5f1782);
-padding: 0;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  padding: 0;
 }
 
-.navbar-brand img
-{
+.navbar-brand img {
   height: 40px;
   padding-left: 20px;
 }
@@ -46,10 +49,10 @@ padding: 0;
   outline: none;
 }
 
-/*---------------------banner section---------------------*/
+/* Banner styles section */
 
 #banner {
-  background-image: linear-gradient(to right, #a517ba,orange);
+  background-image: linear-gradient(to right, #a517ba, orange);
   color: #fff;
   padding-top: 5%;
 }
@@ -70,24 +73,17 @@ padding: 0;
   text-decoration: none;
 }
 
-/*.myimage {
-  width: 45px;
-  margin: 30px;
-}*/
-
 .bottom-img {
   width: 100%;
 }
 
-
-/*---------------------Services section---------------------*/
+/* Service styles section */
 
 #services {
   padding: 8px 0;
 }
 
 .service-img {
-
   width: 100px;
   margin-top: 20px;
 }
@@ -102,9 +98,8 @@ padding: 0;
   text-transform: uppercase;
 }
 
-.title::before
-{
-  content: '';
+.title::before {
+  content: "";
   background-color: #7b1798;
   height: 5px;
   width: 200px;
@@ -114,9 +109,8 @@ padding: 0;
   transform: translateY(63px);
 }
 
-.title::after
-{
-  content: '';
+.title::after {
+  content: "";
   background-color: #7b1798;
   height: 10px;
   width: 50px;
@@ -132,17 +126,15 @@ padding: 0;
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #a517ba,orange);
-
+  background-image: linear-gradient(to right, #a517ba, orange);
 }
 
-/*---------------------About us section---------------------*/
+/* About us styles section */
 
 #about-us {
   background-color: #f8f9fa;
   padding-bottom: 50px;
   padding-top: 50px;
-
 }
 
 .about-title {
@@ -156,15 +148,13 @@ padding: 0;
 }
 
 #about-us ul {
- margin-left: 20px;
+  margin-left: 20px;
 }
 
-
-/*---------------------Testimonials section---------------------*/
+/* Testimonials styles section */
 
 #testimonials {
-
-margin: 100px 0;
+  margin: 100px 0;
 }
 
 .testimonials {
@@ -174,10 +164,10 @@ margin: 100px 0;
 }
 
 .testimonials img {
- height: 60px;
- width: 60px;
- border-radius: 50%;
- margin: 0 10px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
 }
 
 .testimonials img {
@@ -193,10 +183,10 @@ margin: 100px 0;
   font-size: 12px;
 }
 
-/*---------------------Social Media section---------------------*/
+/* Social media styles section */
 
 #social-media {
-  background-color:#f8f9fa;
+  background-color: #f8f9fa;
   padding: 100px 0;
 }
 
@@ -215,10 +205,10 @@ margin: 100px 0;
   transform: translateY(-10px);
 }
 
-/*---------------------Footer section---------------------*/
+/* Footer styles section */
 
 #footer {
-  background-image:linear-gradient(to right, #a517ba,orange);
+  background-image: linear-gradient(to right, #a517ba, orange);
   color: #fff;
 }
 
@@ -231,7 +221,7 @@ margin: 100px 0;
 }
 
 footer-box img {
-  width:120px;
+  width: 120px;
   margin-bottom: 20px;
 }
 
@@ -243,7 +233,7 @@ footer-box img {
   text-align: center;
   padding-top: 7px;
   border-radius: 2px;
-  background-image:linear-gradient(to right, #a517ba,orange) ;
+  background-image: linear-gradient(to right, #a517ba, orange);
 }
 
 .footer-box .form-control {
@@ -255,11 +245,11 @@ footer-box img {
 }
 
 .footer-box .btn-primary {
-  box-shadow: none; 
+  box-shadow: none;
   border: none;
   border-radius: 0;
   margin-top: 30px;
-  background-image:linear-gradient(to right, #a517ba,orange) ;
+  background-image: linear-gradient(to right, #a517ba, orange);
 }
 
 hr {
