@@ -86,6 +86,7 @@ body {
 .service-img {
   width: 100px;
   margin-top: 20px;
+  border-radius: 30%;
 }
 
 .services {
@@ -151,7 +152,7 @@ body {
   margin-left: 20px;
 }
 
-/* Testimonials styles section */
+/* Testimonials & portfolio styles section */
 
 #testimonials {
   margin: 100px 0;
@@ -166,12 +167,13 @@ body {
 .testimonials img {
   height: 60px;
   width: 60px;
-  border-radius: 50%;
+  border-radius: 30%;
   margin: 0 10px;
 }
 
 .testimonials img {
   transition: 0.5s;
+  transform: scale(.8);
 }
 
 .testimonials a:hover img {
