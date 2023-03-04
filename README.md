@@ -40,6 +40,15 @@ The portfolio website includes the following features:
 
 .   Clickable images of the applications that take the user to the deployed applications
 
+## Future Development
+
+.   The HTML and CSS code in this project has been designed to be easily extendable, allowing for the addition of new sections and elements in the future.
+
+.   The use of flexible and responsive design principles, such as the implementation of Flexbox and media queries, ensures that any new content added to the site will seamlessly integrate with the existing layout.
+
+.   The modular structure of the codebase makes it easy to isolate and update specific sections without affecting the overall functionality of the site.
+
+.   To further support future development, comments have been included throughout the codebase to provide guidance and context for any necessary modifications.
 
 ## Usage
 
