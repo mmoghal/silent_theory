@@ -21,7 +21,6 @@ body {
 
 .navbar {
   background-image: linear-gradient(to right, #a517ba, #5f1782);
-  padding: 0;
 }
 
 .navbar-brand img {
@@ -49,7 +48,7 @@ body {
   outline: none;
 }
 
-/* Banner styles section */
+/* Banner styles */
 
 #banner {
   background-image: linear-gradient(to right, #a517ba, orange);
@@ -59,8 +58,8 @@ body {
 
 .promo-title {
   font-size: 40px;
-  font-weight: 600;
-  margin-top: 100px;
+  font-weight: 600px;
+  margin-bottom: 30px;
 }
 
 .play-btn {
@@ -77,26 +76,46 @@ body {
   width: 100%;
 }
 
+figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
 /* Service styles section */
 
 #services {
-  padding: 8px 0;
+  background-color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.services-container {
+  margin-top: 50px;
 }
 
 .service-img {
-  width: 100px;
+  max-width: 100px;
   margin-top: 20px;
   border-radius: 30%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .services {
   padding: 20px;
 }
 
+.services p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 .services h4 {
+  font-size: 24px;
+  font-weight: bold;
   padding: 5px;
-  margin-top: 25px;
-  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .title::before {
@@ -113,7 +132,6 @@ body {
 .title::after {
   content: "";
   background-color: #7b1798;
-  height: 10px;
   width: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -128,6 +146,8 @@ body {
   border: none;
   border-radius: 20px;
   background-image: linear-gradient(to right, #a517ba, orange);
+  color: #fff;
+  text-align: center;
 }
 
 /* About us styles section */
@@ -152,31 +172,30 @@ body {
   margin-left: 20px;
 }
 
-/* Testimonials & portfolio styles section */
+/* Testimonials & portfolios styles section */
 
+#portfolios,
 #testimonials {
-  margin: 100px 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
-.testimonials {
+.portfolios {
   border-left: 4px solid #7b1798;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.testimonials img {
-  height: 60px;
-  width: 60px;
+.portfolios img {
+  height: 100px;
+  width: 100px;
   border-radius: 30%;
   margin: 0 10px;
-}
-
-.testimonials img {
   transition: 0.5s;
-  transform: scale(.8);
+  transform: scale(0.8);
 }
 
-.testimonials a:hover img {
+.portfolios a:hover img {
   transform: translateY(-10px);
 }
 
@@ -192,7 +211,7 @@ body {
   padding: 100px 0;
 }
 
-#social-media p {
+#social-media h1.title {
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 30px;
@@ -222,7 +241,7 @@ body {
   padding: 20px;
 }
 
-footer-box img {
+.footer-box img {
   width: 120px;
   margin-bottom: 20px;
 }
@@ -238,20 +257,30 @@ footer-box img {
   background-image: linear-gradient(to right, #a517ba, orange);
 }
 
-.footer-box .form-control {
-  box-shadow: none;
-  border: none;
-  border-radius: 0;
+.footer-box form {
   margin-top: 25px;
   max-width: 250px;
 }
 
+.footer-box label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.footer-box .form-control,
 .footer-box .btn-primary {
   box-shadow: none;
   border: none;
   border-radius: 0;
-  margin-top: 30px;
   background-image: linear-gradient(to right, #a517ba, orange);
+  padding: 10px;
+  width: 100%;
+}
+
+.footer-box .btn-primary {
+  margin-top: 30px;
 }
 
 hr {
