@@ -20,7 +20,7 @@ body {
 }
 
 .navbar {
-  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  background-image: linear-gradient(to right, #a517ba, orange);
 }
 
 .navbar-brand img {
