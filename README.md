@@ -54,6 +54,13 @@ The portfolio website includes the following features:
 
 My webpage features a user-friendly navigation panel located at the top left corner, providing easy access to various parts of the webpage. You can quickly jump to sections such as 'About Us', 'Services', 'Portfolio', 'Testimonials', and 'Contact' by using it. Our 'Services' section provides details on the various services we offer, which includes IT Strategy and Planning, Cybersecurity, Cloud Computing, and more. The 'Portfolios' section showcases some of our recent projects, giving you a glimpse of the type of applications I have deployed. If you're interested in hearing what our clients have to say about me, check out the 'Testimonials' section. Here, you'll find feedback from some of our satisfied clients who have worked with me in the past. Finally, if you're ready to get in touch with us, head over to the 'Contact' section.
 
+1. Visit [Deployed Application](https://mmoghal.github.io/silent_theory/) to view the Portfolio
+
+2. Application Image
+
+![alt Image of the application](https://github.com/mmoghal/silent_theory/blob/main/p-image.png)
+
+
 ## Credits
 
 The project was developed by Muhammad Moghal. The website design was inspired by various sources including Design Inspiration and Google search. The images used in the website were obtained from various online sources.
