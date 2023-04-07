@@ -187,13 +187,53 @@ figcaption {
 }
 
 .portfolios img {
-  height: 100px;
-  width: 100px;
+  height: 130px;
+  width: 130px;
   border-radius: 30%;
   margin: 0 10px;
   transition: 0.5s;
   transform: scale(0.8);
 }
+
+.workday-logo-link .workday-logo {
+  height: 87px;
+  width: 286px;
+  border-radius: 2%;
+  margin: 0 10px;
+  transition: 0.5s;
+  transform: scale(0.8);
+}
+
+
+.quiz-logo-link .quiz-logo {
+  height: 130px;
+  width: 230px;
+  border-radius: 2%;
+  margin: 0 10px;
+  transition: 0.5s;
+  transform: scale(0.8);
+}
+
+
+.map-logo-link .map-logo {
+  height: 130px;
+  width: 230px;
+  border-radius: 2%;
+  margin: 0 10px;
+  transition: 0.5s;
+  transform: scale(0.8);
+}
+
+
+.weather-logo-link .weather-logo {
+  height: 130px;
+  width: 230px;
+  border-radius: 2%;
+  margin: 0 10px;
+  transition: 0.5s;
+  transform: scale(0.8);
+}
+
 
 .portfolios a:hover img {
   transform: translateY(-10px);
